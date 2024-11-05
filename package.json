@@ -1,0 +1,25 @@
+{
+  "name": "pretty-terminals",
+  "version": "1.0.0",
+  "description": "A library for colorful and icon-enhanced terminal output",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Akifer2",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^22.9.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
